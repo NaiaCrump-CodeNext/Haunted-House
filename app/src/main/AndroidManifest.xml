@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hauntedhouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Father_EndingDirections"></activity>
+        <activity android:name=".Mother_EndingKeys" />
+        <activity android:name=".DropTheEye" />
+        <activity android:name=".EyeSeeYou_Ending" />
+        <activity android:name=".OpenBox" />
+        <activity android:name=".AlmostDone" />
+        <activity android:name=".ExploreOffice" />
+        <activity android:name=".FollowFootsteps" />
+        <activity android:name=".NeedAnAsprin_Ending" />
+        <activity android:name=".Shhhh_Ending" />
+        <activity android:name=".TurnLightOFF" />
+        <activity android:name=".TurnLightON" />
+        <activity android:name=".ShouldveListened_Ending" />
+        <activity android:name=".LightSwitch" />
+        <activity android:name=".TrustKids" />
+        <activity android:name=".DontTrustKids" />
+        <activity android:name=".SwitchToysMinigame" />
+        <activity android:name=".ThatsMineGirl" />
+        <activity android:name=".ThatsMineBoy" />
+        <activity android:name=".BlueBed" />
+        <activity android:name=".PinkBed" />
+        <activity android:name=".ScreamRunTowards" />
+        <activity android:name=".YoumettheMurderer_Ending" />
+        <activity android:name=".BackAway" />
+        <activity android:name=".GetCloser" />
+        <activity android:name=".YouAreSafe_Ending" />
+        <activity android:name=".LeaveAttic" />
+        <activity android:name=".OpenChest" />
+        <activity android:name=".SpiderBite_Ending" />
+        <activity android:name=".Ignore" />
+        <activity android:name=".ExploreAttic" />
+        <activity android:name=".Approach" />
+        <activity android:name=".GoLeft" />
+        <activity android:name=".GoRight" />
+        <activity android:name=".VisitHauntedHouseActivity" />
+        <activity android:name=".Coward_Ending" />
+        <activity android:name=".LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
