@@ -8,21 +8,21 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="313dp"
-        android:layout_height="273dp"
+        android:layout_width="375dp"
+        android:layout_height="400dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="You leave the attic, and even though you thought you knew where you were, it seems like the walls have changed. What happened...? Nothing is the same as before, and you are undeniably lost. Should you wander through the halls in hopes of finding the exit, or try and retrace your steps?"
         android:textAlignment="center"
-        android:textSize="20"
+        android:textSize="29"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/button17"
@@ -39,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.233" />
+        app:layout_constraintVertical_bias="0.966" />
 
     <Button
         android:id="@+id/button18"
@@ -53,8 +53,8 @@
         android:text="Retrace your steps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toEndOf="@+id/button17"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintVertical_bias="0.968" />
 </androidx.constraintlayout.widget.ConstraintLayout>

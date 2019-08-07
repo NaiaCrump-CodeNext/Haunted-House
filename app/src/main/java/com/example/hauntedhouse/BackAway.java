@@ -11,4 +11,6 @@ public class BackAway extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_back_away);
     }
+
+    public void
 }

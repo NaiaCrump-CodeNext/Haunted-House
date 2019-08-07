@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Father_EndingDirections"></activity>
+        <activity android:name=".BackOff"></activity>
+        <activity android:name=".BsBeBonkers" />
+        <activity android:name=".Father_EndingDirections" />
         <activity android:name=".Mother_EndingKeys" />
         <activity android:name=".DropTheEye" />
         <activity android:name=".EyeSeeYou_Ending" />

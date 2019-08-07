@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".ScreamRunTowards">
 
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="268dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="You chose to run towards the scream"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pink bed "
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue Bed"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="554dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

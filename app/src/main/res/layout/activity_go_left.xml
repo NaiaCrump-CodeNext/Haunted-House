@@ -8,27 +8,27 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="366dp"
-        android:layout_height="452dp"
+        android:layout_width="365dp"
+        android:layout_height="401dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You see a dark set of stairs going upwards. You can't see the top,  but something compels you to go upwards. You enter a dark and dusty attic, with cobwebs and dust everywhere. You cough in the musky, stale air. Should you stay up  here and explore, or leave the attic?"
+        android:text="You see a dark set of stairs going upwards.  You can't see the top,  but something compels you to go upwards.  The stairs lead to a small door, clearly indicatng you're going to the attic of the house.  Something fills you with a sense of foreboding. Are you going to continue upwards or go back downstairs?"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="explore"
@@ -37,7 +37,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <Button
         android:id="@+id/button9"
@@ -52,8 +52,8 @@
         android:textSize="26"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.501" />
+        app:layout_constraintVertical_bias="0.967" />
 </androidx.constraintlayout.widget.ConstraintLayout>

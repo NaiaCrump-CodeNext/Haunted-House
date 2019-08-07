@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".FollowFootsteps">
 
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="274dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="you have chosen to follow the footsteps "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run faster"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give up "
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="530dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
