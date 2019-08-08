@@ -30,6 +30,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="takeToys"
         android:text="Take the toy "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button22"
@@ -42,6 +43,7 @@
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="switchToys"
         android:text="Switch the Toy"
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="647dp" />

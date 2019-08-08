@@ -6,21 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class TurnLightON extends AppCompatActivity {
+public class HearScream extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_turn_light_on);
+        setContentView(R.layout.activity_hear_scream);
     }
 
-    public void punchHim(View view){
-        Intent intent = new Intent(this, NeedAnAsprin_Ending.class);
+    public void runTowards(View view){
+        Intent intent = new Intent(this, ScreamRunTowards.class);
         startActivity(intent);
     }
 
     public void runAway(View view){
-        Intent intent = new Intent(this, Shhhh_Ending.class);
+        Intent intent = new Intent(this, YoumettheMurderer_Ending.class);
         startActivity(intent);
     }
 }

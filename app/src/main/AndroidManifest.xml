@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BackOff"></activity>
+        <activity android:name=".GetCloser" />
+        <activity android:name=".HearScream" />
+        <activity android:name=".BackOff" />
         <activity android:name=".BsBeBonkers" />
         <activity android:name=".Father_EndingDirections" />
         <activity android:name=".Mother_EndingKeys" />
@@ -34,13 +36,10 @@
         <activity android:name=".PinkBed" />
         <activity android:name=".ScreamRunTowards" />
         <activity android:name=".YoumettheMurderer_Ending" />
-        <activity android:name=".BackAway" />
-        <activity android:name=".GetCloser" />
         <activity android:name=".YouAreSafe_Ending" />
         <activity android:name=".LeaveAttic" />
         <activity android:name=".OpenChest" />
         <activity android:name=".SpiderBite_Ending" />
-        <activity android:name=".Ignore" />
         <activity android:name=".ExploreAttic" />
         <activity android:name=".Approach" />
         <activity android:name=".GoLeft" />

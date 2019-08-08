@@ -11,7 +11,7 @@ public class ExploreAttic extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ignore);
+        setContentView(R.layout.activity_explore);
     }
 
     public void openChest(View view){

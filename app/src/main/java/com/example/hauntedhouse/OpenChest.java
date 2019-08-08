@@ -14,7 +14,8 @@ public class OpenChest extends AppCompatActivity {
         setContentView(R.layout.activity_open_chest);
     }
     public void leaveAttic(View view){
-        //Intent intent = new Intent(this, );
+        Intent intent = new Intent(this, LeaveAttic.class);
+        startActivity(intent);
     }
 
 }

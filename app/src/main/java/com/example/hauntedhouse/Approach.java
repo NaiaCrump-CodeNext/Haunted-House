@@ -15,12 +15,12 @@ public class Approach extends AppCompatActivity {
     }
 
     public void getCloser(View view){
-        Intent intent = new Intent(this, );
+        Intent intent = new Intent(this, BsBeBonkers.class);
         startActivity(intent);
     }
 
     public void backAway(View view){
-        //Intent intent = new Intent (this, );
-        //startActivity(intent);
+        Intent intent = new Intent (this, HearScream.class);
+        startActivity(intent);
     }
 }

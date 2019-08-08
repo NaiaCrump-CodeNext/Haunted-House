@@ -20,7 +20,7 @@ public class GoRight extends AppCompatActivity {
     }
 
     public void ignore(View view){
-        Intent intent = new Intent(this, Ignore.class);
+        Intent intent = new Intent(this, HearScream.class);
         startActivity(intent);
     }
 

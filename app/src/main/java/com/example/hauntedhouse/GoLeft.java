@@ -20,7 +20,7 @@ public class GoLeft extends AppCompatActivity {
     }
 
     public void leave(View view){
-        Intent intent = new Intent(this, VisitHauntedHouseActivity.class);
+        Intent intent = new Intent(this, LeaveAttic.class);
         startActivity(intent);
     }
 }
