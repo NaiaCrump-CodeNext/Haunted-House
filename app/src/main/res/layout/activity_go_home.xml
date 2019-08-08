@@ -8,17 +8,30 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="358dp"
-        android:layout_height="163dp"
+        android:layout_width="384dp"
+        android:layout_height="380dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="You couldn't bring yourself to enter the building and went home. Your friends tease you about your cowardness for weeks afterwords. Sucks to suck. "
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:text='" Coward " Ending'
+        android:textAlignment="center"
+        android:textSize="40"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="471dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

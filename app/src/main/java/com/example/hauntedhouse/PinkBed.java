@@ -20,7 +20,7 @@ public class PinkBed extends AppCompatActivity {
     }
 
     public void switchToys(View view){
-        Intent intent = new Intent(this, switchToys.class);
+        Intent intent = new Intent(this, SwitchToysMinigame.class);
         startActivity(intent);
     }
 }
