@@ -8,16 +8,17 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="322dp"
-        android:layout_height="291dp"
+        android:layout_width="333dp"
+        android:layout_height="537dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="You wander aimlessly until you somehow stumble back to the entrance of the house. You leave in a hurry, and get back to your house- safe and sound. You promise to never do  that again.  "
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
 </androidx.constraintlayout.widget.ConstraintLayout>

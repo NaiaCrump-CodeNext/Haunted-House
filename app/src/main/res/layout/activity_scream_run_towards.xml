@@ -8,30 +8,39 @@
 
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="268dp"
-        android:layout_height="74dp"
+        android:layout_width="400dp"
+        android:layout_height="557dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose to run towards the scream"
+        android:text="You swallow your fear and run towards the sound, hoping to find someone that you can help, and hopefully help you in return. You try to follow the noise and end up in a child's room. It was very old fashioned, with pale colours and lace. It's split in half, with one side boasting primarily pinks and whites, while the other had blues and greens. It must've been a little boy and girl who lived  here. You see two beds, one pink and one blue- with something underneath the sheets on both. "
+        android:textAlignment="center"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
 
     <Button
         android:id="@+id/button36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="112dp"
         android:text="Pink bed "
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="554dp" />
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/button37"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
     <Button
         android:id="@+id/button37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
         android:text="Blue Bed"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="554dp" />
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        tools:layout_editor_absoluteX="263dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

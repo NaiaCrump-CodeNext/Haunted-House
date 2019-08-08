@@ -8,42 +8,44 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="332dp"
-        android:layout_height="76dp"
+        android:layout_width="357dp"
+        android:layout_height="519dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You've chosen to explore the office"
+        android:text="You choose to explore the office. It's just as ornate as the rest of the house.  Though everyting is covered in a thick layer of dust, the mahogany desk has a deep,  expensive looking luster. The rug is soft, and there's a large oil painting of a family-  A father, mother, and two children- hangs on the mantle above the fireplace. Underneath the painting is a wooden box, decorated lavishly. "
+        android:textAlignment="center"
+        android:textSize="26"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
 
     <Button
         android:id="@+id/button26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="28dp"
         android:text="Leave the box"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button27"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button27"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="108dp"
         android:layout_marginBottom="8dp"
         android:text="Open the box"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.501" />
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

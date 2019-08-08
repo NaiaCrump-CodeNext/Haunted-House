@@ -6,26 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".DropTheEye">
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="231dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="You chose to drop the eye."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
         android:text="Continue?"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="526dp" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="129dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:text="You drop the box out of shock and the eye bounces out and rolls away.  You try to follow it to put it back, but it's... gone? Well then, I hope that wasn't important. "
+        android:textAlignment="center"
+        android:textSize="35"
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
