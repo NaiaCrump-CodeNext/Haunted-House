@@ -11,33 +11,45 @@
         android:layout_width="337dp"
         android:layout_height="374dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text='You throw the strongest punch you could but the masked man easily  catches your fist and holds the ax to your neck. You beg and plead for him to let you go- but all he does is hold the the ax harder on your neck,  cutting into you skin. "This is for your own good." He slices off your head  with one clean'
         android:textAlignment="center"
-        android:textSize="26"
+        android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/textView37"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView37"
         android:layout_width="261dp"
         android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="92dp"
         android:text='" Chop ! "'
         android:textAlignment="center"
-        android:textSize="44"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="415dp" />
+        android:textSize="44sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="276dp"
         android:layout_height="109dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="52dp"
         android:text='" Need an Asprin? " Ending'
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="549dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

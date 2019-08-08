@@ -15,7 +15,7 @@
         android:layout_marginBottom="8dp"
         android:text="You slowly open the door to the small attic. It gives no resistance but creaks with years of disuse.  You cough harshly from the dusty, stale air but through your watering eyes you can make out an old looking drawer,  and a chest. Carved crudely into the floor by the items says:"
         android:textAlignment="center"
-        android:textSize="28"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,33 +26,47 @@
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="40dp"
         android:onClick="openChest"
         android:text="Open the chest"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button15"
-        tools:layout_editor_absoluteX="96dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="64dp"
         android:onClick="openDrawer"
         android:text="Open the drawer"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="329dp"
         android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text='" Choose Wisely "'
         android:textAlignment="center"
-        android:textSize="30"
+        android:textSize="30sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="399dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
 </androidx.constraintlayout.widget.ConstraintLayout>

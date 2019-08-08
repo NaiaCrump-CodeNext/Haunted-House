@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class TurnLightON extends AppCompatActivity {
+public class TurnLightOn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_turn_light_on);
+        setContentView(R.layout.activity_turn_light_on2);
     }
 
     public void punchHim(View view){

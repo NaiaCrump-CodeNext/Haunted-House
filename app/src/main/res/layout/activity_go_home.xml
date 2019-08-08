@@ -29,7 +29,7 @@
         android:layout_height="56dp"
         android:text='" Coward " Ending'
         android:textAlignment="center"
-        android:textSize="40"
+        android:textSize="40sp"
         android:textStyle="italic"
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="471dp" />

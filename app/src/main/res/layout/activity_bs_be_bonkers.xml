@@ -15,7 +15,7 @@
         android:layout_marginBottom="8dp"
         android:text="You continue to aproach the woman, regardless of the weapon. She screams and runs at you stabbing you cleanly through the stomach. You slowly look down as the weapon cut deep into your middle,  and look up at the woman- your consciousness already fading. Tears stream down her face as she whispers,  &quot;I'm sorry my love&quot; and you die from blood loss."
         android:textAlignment="center"
-        android:textSize="30"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
