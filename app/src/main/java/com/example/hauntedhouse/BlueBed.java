@@ -15,7 +15,7 @@ public class BlueBed extends AppCompatActivity {
     }
 
     public void takeToys(View view){
-        Intent intent = new Intent(this, ThatsMineBoy.class);
+        Intent intent = new Intent(this, SwitchToysMinigame.class);
         startActivity(intent);
     }
 

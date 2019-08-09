@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="takeToy"
     tools:context=".PinkBed">
 
     <TextView
@@ -28,6 +29,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="takeToy"
         android:text="Take toy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button35"
@@ -42,6 +44,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="68dp"
         android:layout_marginBottom="8dp"
+        android:onClick="switchToys"
         android:text="Switch toys"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

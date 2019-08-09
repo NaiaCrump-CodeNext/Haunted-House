@@ -15,8 +15,8 @@ public class ExploreAttic extends AppCompatActivity {
     }
 
     public void openChest(View view){
-        //Intent intent = new Intent(this,);
-        //startActivity(intent);
+        Intent intent = new Intent(this, OpenChest.class);
+        startActivity(intent);
     }
 
     public void openDrawer(View view){
