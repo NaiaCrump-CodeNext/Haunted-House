@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TurnLightOn"></activity>
+        <activity android:name=".HearScream"></activity>
+        <activity android:name=".LightSwitch" />
+        <activity android:name=".TurnLightOn" />
         <activity android:name=".GetCloser" />
-        <activity android:name=".HearScream" />
         <activity android:name=".BackOff" />
         <activity android:name=".BsBeBonkers" />
         <activity android:name=".Father_EndingDirections" />
@@ -26,7 +27,6 @@
         <activity android:name=".Shhhh_Ending" />
         <activity android:name=".TurnLightOFF" />
         <activity android:name=".ShouldveListened_Ending" />
-        <activity android:name=".LightSwitch" />
         <activity android:name=".TrustKids" />
         <activity android:name=".DontTrustKids" />
         <activity android:name=".SwitchToysMinigame" />
