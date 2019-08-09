@@ -8,17 +8,21 @@
 
     <TextView
         android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_width="384dp"
+        android:layout_height="564dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose to trust the kids"
+        android:text='You choose to trust the kids, and they give you a kind smile.  They hand you another note with a key, and cryptically say, "Right, Left, Up, Left." Then, they fade away.'
+        android:textAlignment="center"
+        android:textSize="44sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
 
     <Button
         android:id="@+id/button38"
@@ -30,6 +34,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="leaveTheKids"
         android:text="Leave the kids room"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

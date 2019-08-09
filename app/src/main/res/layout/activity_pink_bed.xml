@@ -13,12 +13,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose the pink bed"
+        android:text="You look under the covers of the pink bed, and find a well made doll. Her eyes are made from shiny blue buttons, and her hair is made from black yarn.  It's strangely warm to the touch, and pulses in your hand, almost like she's... breathing? "
+        android:textAlignment="center"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/button34"
@@ -29,6 +31,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Take toy"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button35"
         app:layout_constraintHorizontal_bias="0.503"
@@ -40,9 +43,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
         android:text="Switch toys"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />

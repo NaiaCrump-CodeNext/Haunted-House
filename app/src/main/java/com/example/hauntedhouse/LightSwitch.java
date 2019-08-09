@@ -9,6 +9,6 @@ public class LightSwitch extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_turn_light_on);
+        setContentView(R.layout.activity_turn_light_on2);
     }
 }

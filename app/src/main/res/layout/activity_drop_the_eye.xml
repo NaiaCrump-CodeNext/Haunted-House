@@ -8,17 +8,21 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="231dp"
-        android:layout_height="70dp"
+        android:layout_width="363dp"
+        android:layout_height="376dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose to drop the eye."
+        android:text="You drop the box out of shock and the eye bounces out and rolls away.  You try to follow it to put it back, but it's... gone? Well then, I hope that wasn't important."
+        android:textAlignment="center"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
 
     <Button
         android:id="@+id/button25"
@@ -30,6 +34,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="cont"
         android:text="Continue?"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

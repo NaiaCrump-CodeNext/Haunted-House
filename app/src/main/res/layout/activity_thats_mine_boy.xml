@@ -13,9 +13,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Mine boy endiing"
+        android:text="You take the toy, but before you can leave the room- you hear a little boy scream,  &quot;THAT'S MINE!&quot; You start to feel exteremely dizzy and collaspe.  The room spins and blurrily, you see the figure of a little boy.  You reach out to him, but he ignores you as you consciousness..."
+        android:textAlignment="center"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,16 +12,13 @@
         android:layout_height="295dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:text="You gulp down your fear with a dry swallow.  You take one step into the house and a horrible chill goes up your spine.  You force yourself to muster up all your courage and continue walking into the house.  You get a few more steps in until you hear the doors creak and slam closed with a loud  "
         android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
@@ -33,6 +30,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="right"
         android:text="Right"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +45,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="left"
         android:text="Left"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
@@ -71,14 +70,15 @@
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="381dp"
+        android:layout_height="227dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="152dp"
+        android:layout_marginBottom="50dp"
         android:text="You try prying the door open, but it seems like it's stuck.  You turn back around, your heart thumping in your ears.  You'll need to find a new way out of this house. You find a hallway with two doors, Left and Right.  "
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

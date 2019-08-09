@@ -8,15 +8,31 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="221dp"
-        android:layout_height="96dp"
+        android:layout_width="378dp"
+        android:layout_height="608dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You shouldve listened ending"
+        android:text="You pick up the note. All there is in small, child's handwriting is, &quot;Your funeral&quot;, written in crayon.  You look up and see both of the children laying in pools of blood, gruesomely murdered.  You suddenly feel a burning sensation in your gut  and slowly look down. A knife is poking out, and red blood blooms from the wound.  The last thing you hear before you finally lose consciousness, is a woman sobbing. "
+        android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="&quot; Should've Listened &quot; Ending "
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 </androidx.constraintlayout.widget.ConstraintLayout>

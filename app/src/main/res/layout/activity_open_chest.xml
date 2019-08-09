@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="315dp"
-        android:layout_height="145dp"
+        android:layout_width="364dp"
+        android:layout_height="433dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose to open the chest, and find another key. "
+        android:text="You choose to open the chest. The lid is heavy as you pull it open, gearing yourself for the worse. But all you find is another key with a note attached. You pocket it."
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -8,17 +8,20 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="285dp"
-        android:layout_height="125dp"
+        android:layout_width="385dp"
+        android:layout_height="392dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="yOU TURNE D THE LIGHT ON"
+        android:text="Blindly, you feel around the wall for a lightswitch.  When you finally find it, you switch it on- and find yourself face to face with a masked man.  You scream as he raises a large, rusted ax and reaches out a hand to grab you.  "
+        android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
 
     <Button
         android:id="@+id/button19"
@@ -30,12 +33,13 @@
         android:layout_marginBottom="8dp"
         android:onClick="punchHim"
         android:text="Punch him "
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.624" />
 
     <Button
         android:id="@+id/button20"
@@ -47,10 +51,11 @@
         android:layout_marginBottom="8dp"
         android:onClick="runAway"
         android:text="run away"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toEndOf="@+id/button19"
         app:layout_constraintTop_toBottomOf="@+id/textView22"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.624" />
 </androidx.constraintlayout.widget.ConstraintLayout>

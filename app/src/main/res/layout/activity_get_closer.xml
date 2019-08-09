@@ -8,17 +8,20 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="189dp"
-        android:layout_height="78dp"
+        android:layout_width="294dp"
+        android:layout_height="376dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="You chose to get closer"
+        android:text="She seems to notice your presence and turns to you.  But as soon as she looks at you, she starts to scream and back away."
+        android:textAlignment="center"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.282" />
 
     <Button
         android:id="@+id/button12"
@@ -30,6 +33,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="getCloser"
         android:text="Get Closer"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button13"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,12 +44,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginEnd="48dp"
         android:layout_marginBottom="8dp"
         android:onClick="backOff"
         android:text="Back Off"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.501" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 </androidx.constraintlayout.widget.ConstraintLayout>
